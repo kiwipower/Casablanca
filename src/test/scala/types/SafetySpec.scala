@@ -46,8 +46,8 @@ class SafetySpec extends FunSuite with Matchers{
   }
 
   test("What about null"){
-    thisMightBeNull( 5) shouldBe 5
-    thisMightBeNull( 6) == null shouldBe true
+    thisMightBeNull(5) shouldBe MyNumber(5)
+    thisMightBeNull(6) shouldBe null
   }
 
 }

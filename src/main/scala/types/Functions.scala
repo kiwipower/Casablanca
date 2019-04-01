@@ -13,5 +13,5 @@ object Functions {
   def addItUp(i: Int, i1: Int) :Int = ???
   def addItUp(i: String, i1: String) : String = ???
 
-  def thisMightBeNull(value: Int): Int = if(value % 2 == 0) null  else value
+  def thisMightBeNull(value: Int): MyNumber = if(value % 2 == 0) null  else MyNumber(value)
 }
