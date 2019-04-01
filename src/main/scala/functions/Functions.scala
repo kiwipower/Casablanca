@@ -8,7 +8,7 @@ object Functions {
 
   val sumUpImperative: List[Int] => Int = { nums =>
     var curr = 0
-    for( i <-  0 to nums.size){
+    for (i <- 0 to nums.size) {
       curr = curr + nums(i)
     }
     curr
@@ -16,5 +16,5 @@ object Functions {
 
   def sumUpFunctional: List[Int] => Int = ???
 
-  def thisMightBeNull(value: Int): Option[Int] = if(value % 2 == 0) None  else Some(value)
+  def thisMightBeNull(value: Int): Option[Int] = if (value % 2 == 0) None else Some(value)
 }
