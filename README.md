@@ -3,8 +3,7 @@
 Test cases - so you can write scala code.
 
 *step 0*
-Install the JVM
-* https://docs.oracle.com/javase/8/docs/technotes/guides/install/mac_jdk.html
+[Install the JVM](https://docs.oracle.com/javase/8/docs/technotes/guides/install/mac_jdk.html)
 
 *step 1*
 [install sbt](https://www.scala-sbt.org/0.13/docs/Setup.html)
