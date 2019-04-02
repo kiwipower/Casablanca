@@ -22,9 +22,10 @@ class FunctionSpec extends FunSuite with Matchers {
   }
 
   test("Square each element and sum up the list") {
-    List(2, 4, 6)
-      .map(num => ???)
-      .map(num => ???) shouldBe List(4, 16, 36)
+    val list = List(2, 4, 6)
+    list.map(num => ???) shouldBe List(4, 16, 36)
+
+//    ??? shouldBe 56
   }
 
   test("What about null?") {

@@ -16,5 +16,5 @@ object Functions {
 
   def addItUp(i: String, i1: String): String = ???
 
-  def thisMightBeNull(value: Int): MyNumber = if (value % 2 == 0) null else MyNumber(value)
+  def divideBy2(in: MyNumber): MyNumber = if (in.value % 2 != 0) null else MyNumber(in.value/2)
 }
